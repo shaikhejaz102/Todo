@@ -119,3 +119,23 @@ ul li span:hover{
         border-radius: 40px;
     }
 }
+
+@media screen and (max-width:390px) {
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 21px;
+    }
+    button {
+        border: none;
+        outline: none;
+        padding: 16px 28px !important;
+        background: #ff5945;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+}
